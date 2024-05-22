@@ -1,0 +1,22 @@
+{
+  
+    "baseUrl": "https://staging-panel.towl.ai/",
+    "projectId": "3rcshd",
+    "viewportWidth": 1366,
+    "viewportHeight": 768,
+    "retries": 0,
+    "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+   
+  },
+  
+  "video": false,
+  "testFiles": "**/*.{feature,features}"
+
+}
+
